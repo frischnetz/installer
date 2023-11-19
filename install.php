@@ -1,5 +1,5 @@
 <?php
-$version = '1.4';
+$version = '1.6.33';
 
 error_reporting(0);
 ini_set('display_errors', 0);
@@ -22,40 +22,112 @@ if (ini_get('allow_url_fopen')) {
 }
 
 $InstallData = array(
-    'revo2.2.16-pl'     => array(
+    'revo3.0.3-pl'      => array(
         'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.2.16-pl Traditional (22.20.2014)',
-        'link'     => 'http://modx.com/download/direct/modx-2.2.16-pl.zip',
+        'name'     => 'MODX Revolution 3.0.3 pl Traditional (2023/01/18)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.3/modx-3.0.3-pl.zip',
         'location' => 'setup/index.php'
     ),
-    'revo2.2.16-pl-ad'  => array(
+    'revo3.0.3-ad'      => array(
         'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.2.16-pl Advanced (22.10.2014)',
-        'link'     => 'http://modx.com/download/direct/modx-2.2.16-pl-advanced.zip',
+        'name'     => 'MODX Revolution 3.0.3 Advanced (2023/01/18)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.3/modx-3.0.3-pl-advanced.zip',
         'location' => 'setup/index.php'
     ),
-    'revo2.2.16-pl-sdk' => array(
+    'revo3.0.3-sdk'      => array(
         'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.2.16-pl SDK (22.10.2014)',
-        'link'     => 'http://modx.com/download/direct/modx-2.2.15-pl-sdk.zip',
+        'name'     => 'MODX Revolution 3.0.3 SDK (2023/01/18)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.3/modx-3.0.3-pl-sdk.zip',
+        'location' => 'setup/index.php'
+    ),	
+    'revo3.0.2-pl'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 3.0.2 pl Traditional (2022/11/17)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.2/modx-3.0.2-pl.zip',
         'location' => 'setup/index.php'
     ),
-    'revo2.3.2-pl'      => array(
+    'revo3.0.2-ad'      => array(
         'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.3.2 Traditional (22.10.2014)',
-        'link'     => 'http://modx.com/download/direct/modx-2.3.2-pl.zip',
+        'name'     => 'MODX Revolution 3.0.2 Advanced (2022/11/17)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.2/modx-3.0.2-pl-advanced.zip',
         'location' => 'setup/index.php'
     ),
-    'revo2.3.2-ad'      => array(
+    'revo3.0.2-sdk'      => array(
         'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.3.2 Advanced (22.10.2014)',
-        'link'     => 'http://modx.com/download/direct/modx-2.3.2-pl-advanced.zip',
+        'name'     => 'MODX Revolution 3.0.2 SDK (2022/11/17)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.2/modx-3.0.2-pl-sdk.zip',
         'location' => 'setup/index.php'
     ),
-    'revo2.3.2-sdk'     => array(
+    'revo3.0.0-pl'      => array(
         'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.3.2 SDK (22.10.2014)',
-        'link'     => 'http://modx.com/download/direct/modx-2.3.2-pl-sdk.zip',
+        'name'     => 'MODX Revolution 3.0.0 pl Traditional (2022/03/30)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.0/modx-3.0.0-pl.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo3.0.0-ad'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 3.0.0 Advanced (2022/03/30)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.0/modx-3.0.0-pl-advanced.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo3.0.0-sdk'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 3.0.0 SDK (2022/03/30)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.0/modx-3.0.0-pl-sdk.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo2.8.4-pl'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.4 Traditional (2022/04/28)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.4/modx-2.8.4-pl.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo2.8.4-ad'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.4 Advanced (2022/04/28)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.4/modx-2.8.4-pl-advanced.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo2.8.4-sdk'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.4 SDK (2022/04/28)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.4/modx-2.8.4-pl-sdk.zip',
+        'location' => 'setup/index.php'
+    ),	
+    'revo2.8.3-pl'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.3 Traditional (2021/05/28)',
+        'link'     => 'https://modx.com/download/direct/modx-2.8.3-pl.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo2.8.3-ad'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.3 Advanced (2021/05/28)',
+        'link'     => 'https://modx.com/download/direct/modx-2.8.3-pl-advanced.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo2.8.3-sdk'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.3 SDK (2021/05/28)',
+        'link'     => 'https://modx.com/download/direct/modx-2.8.3-pl-sdk.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo2.8.0-pl'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.0 Traditional (10.06.2020)',
+        'link'     => 'https://modx.com/download/direct/modx-2.8.0-pl.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo2.8.0-ad'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.0 Advanced (10.06.2020)',
+        'link'     => 'https://modx.com/download/direct/modx-2.8.0-pl-advanced.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo2.8.0-sdk'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.0 SDK (10.06.2020)',
+        'link'     => 'https://modx.com/download/direct/modx-2.8.0-pl-sdk.zip',
         'location' => 'setup/index.php'
     )
 );
@@ -93,7 +165,28 @@ class ModxInstaller {
                 $ch = curl_init(str_replace(" ", "%20", $url));
                 curl_setopt($ch, CURLOPT_TIMEOUT, 50);
                 curl_setopt($ch, CURLOPT_FILE, $newf);
-                curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+                $safeMode = @ini_get('safe_mode');
+		$openBasedir = @ini_get('open_basedir');
+		if (empty($safeMode) && empty($openBasedir)) {
+    			curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+                } else {
+                	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, false);
+                	$rch = curl_copy_handle($ch);
+                	$newurl = $url;
+			curl_setopt($rch, CURLOPT_URL, $newurl);
+        		$header = curl_exec($rch);
+        		if (curl_errno($rch)) {
+          			$code = 0;
+        		} else {
+          			$code = curl_getinfo($rch, CURLINFO_HTTP_CODE);
+          			if ($code == 301 || $code == 302) {
+        	 			preg_match('/Location:(.*?)\n/i', $header, $matches);
+         				$newurl = trim(array_pop($matches));
+                		}
+                		curl_close($rch);
+      				curl_setopt($ch, CURLOPT_URL, $newurl);
+      			}
+      		}
                 $data = curl_exec($ch);
                 curl_close($ch);
             } else {
@@ -142,7 +235,7 @@ class ModxInstaller {
         }
     }
 
-    static public function mmkDir($folder, $perm = 0777) {
+    static public function mmkDir($folder, $perm = 0755) {
         if (!is_dir($folder)) {
             mkdir($folder, $perm);
         }
@@ -163,9 +256,9 @@ if (!empty($_GET['modx']) && is_scalar($_GET['modx']) && isset($InstallData[$_GE
         die('Failed to open zip file');
     }
     if (! is_dir(dirname(__FILE__) . '/temp')) {
-        mkdir(dirname(__FILE__) . '/temp');
+        ModxInstaller::mmkDir(dirname(__FILE__) . '/temp');
     }
-    $success = $zip->extractTo(dirname(__FILE__) . '/temp');
+    $success = $zip->extractTo(dirname(__FILE__) . '/temp/');
     if ($success !== true) {
         $zip->close();
         die('Failed to extract from zip file');
@@ -193,7 +286,7 @@ if (!empty($_GET['modx']) && is_scalar($_GET['modx']) && isset($InstallData[$_GE
         $ItemGrid[$item['tree']][$ver] = $item;
     }
 
-//@TODO : add check installer version	
+//@TODO : add check installer version 
     echo '
 <!DOCTYPE html>
 <html>
@@ -206,11 +299,10 @@ if (!empty($_GET['modx']) && is_scalar($_GET['modx']) && isset($InstallData[$_GE
 </head>
 <body>
     <div class="header">
-        <img src="http://installer.evolution-cms.com/img/logo.png">
-        <h1 class="main-heading"><span>MODX</span> Installer <sup>v' . $version . '</sup> </h1>
+        <h1 class="main-heading"><span>MODX</span>MODX Installer <sup>v' . $version . '</sup> </h1>
         <div class="header-button-wrapper">
             <!--<a href="#" class="button">New version</a>&nbsp;-->
-            <a href="https://github.com/evolution-cms/installer" class="button">GitHub</a>
+            <a href="https://github.com/sottwell/installer" target="_blank" class="button">GitHub</a>
         </div>
     </div>
 </div>
@@ -234,9 +326,9 @@ if (!empty($_GET['modx']) && is_scalar($_GET['modx']) && isset($InstallData[$_GE
     }
     echo '</form>
     <div class="footer">
-        <p>Created by <a href="http://ga-alex.com" title="">Bumkaka</a> & <a href="http://dmi3yy.com" title="">Dmi3yy</a></p>
-        <p>Modified for Revolution only and update maintained by <a href="http://sottwell.com" title="">sottwell</a></p>
-        <p>Designed by <a href="http://a-sharapov.com" title="">Sharapov</a></p>
+        <p>Created by <a href="http://ga-alex.com" target="_blank" title="">Bumkaka</a> & <a href="http://dmi3yy.com" target="_blank" title="">Dmi3yy</a></p>
+        <p>Modified for Revolution only and update maintained by <a href="http://sottwell.com" target="_blank" title="">sottwell</a></p>
+        <p>Designed by <a href="http://a-sharapov.com" target="_blank" title="">Sharapov</a></p>
     </div>
 </body>
 </html>
