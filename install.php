@@ -22,6 +22,12 @@ if (ini_get('allow_url_fopen')) {
 }
 
 $InstallData = array(
+    'revo3.0.4-pl'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 3.0.4 pl Traditional (2023/10/03)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.4/modx-3.0.4-pl.zip',
+        'location' => 'setup/index.php'
+    ),
     'revo3.0.3-pl'      => array(
         'tree'     => 'Revolution',
         'name'     => 'MODX Revolution 3.0.3 pl Traditional (2023/01/18)',
@@ -74,6 +80,18 @@ $InstallData = array(
         'tree'     => 'Revolution',
         'name'     => 'MODX Revolution 3.0.0 SDK (2022/03/30)',
         'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.0/modx-3.0.0-pl-sdk.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo2.8.6-pl'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.6 Traditional (2023/09/28)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.6/modx-2.8.6-pl.zip',
+        'location' => 'setup/index.php'
+    ),
+    'revo2.8.5-pl'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.5 Traditional (2022/03/07)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.5/modx-2.8.5-pl.zip',
         'location' => 'setup/index.php'
     ),
     'revo2.8.4-pl'      => array(
