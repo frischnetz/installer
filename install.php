@@ -82,6 +82,12 @@ $InstallData = array(
         'link'     => 'https://modx.s3.amazonaws.com/releases/3.0.0/modx-3.0.0-pl-sdk.zip',
         'location' => 'setup/index.php'
     ),
+    'revo2.8.7-pl'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 2.8.7 Traditional (2023/09/28)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.7/modx-2.8.7-pl.zip',
+        'location' => 'setup/index.php'
+    ),
     'revo2.8.6-pl'      => array(
         'tree'     => 'Revolution',
         'name'     => 'MODX Revolution 2.8.6 Traditional (2023/09/28)',
