@@ -18,7 +18,6 @@ if (ini_get('allow_url_fopen')) {
     $method = 'curl';
 } else {
     die('Neither allow_url_fopen or cURL is enabled');
-
 }
 
 $InstallData = array(
@@ -110,72 +109,6 @@ $InstallData = array(
         'tree'     => 'Revolution',
         'name'     => 'MODX Revolution 2.8.7 Traditional (2023/09/28)',
         'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.7/modx-2.8.7-pl.zip',
-        'location' => 'setup/index.php'
-    ),
-    'revo2.8.6-pl'      => array(
-        'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.8.6 Traditional (2023/09/28)',
-        'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.6/modx-2.8.6-pl.zip',
-        'location' => 'setup/index.php'
-    ),
-    'revo2.8.5-pl'      => array(
-        'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.8.5 Traditional (2022/03/07)',
-        'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.5/modx-2.8.5-pl.zip',
-        'location' => 'setup/index.php'
-    ),
-    'revo2.8.4-pl'      => array(
-        'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.8.4 Traditional (2022/04/28)',
-        'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.4/modx-2.8.4-pl.zip',
-        'location' => 'setup/index.php'
-    ),
-    'revo2.8.4-ad'      => array(
-        'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.8.4 Advanced (2022/04/28)',
-        'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.4/modx-2.8.4-pl-advanced.zip',
-        'location' => 'setup/index.php'
-    ),
-    'revo2.8.4-sdk'      => array(
-        'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.8.4 SDK (2022/04/28)',
-        'link'     => 'https://modx.s3.amazonaws.com/releases/2.8.4/modx-2.8.4-pl-sdk.zip',
-        'location' => 'setup/index.php'
-    ),	
-    'revo2.8.3-pl'      => array(
-        'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.8.3 Traditional (2021/05/28)',
-        'link'     => 'https://modx.com/download/direct/modx-2.8.3-pl.zip',
-        'location' => 'setup/index.php'
-    ),
-    'revo2.8.3-ad'      => array(
-        'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.8.3 Advanced (2021/05/28)',
-        'link'     => 'https://modx.com/download/direct/modx-2.8.3-pl-advanced.zip',
-        'location' => 'setup/index.php'
-    ),
-    'revo2.8.3-sdk'      => array(
-        'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.8.3 SDK (2021/05/28)',
-        'link'     => 'https://modx.com/download/direct/modx-2.8.3-pl-sdk.zip',
-        'location' => 'setup/index.php'
-    ),
-    'revo2.8.0-pl'      => array(
-        'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.8.0 Traditional (10.06.2020)',
-        'link'     => 'https://modx.com/download/direct/modx-2.8.0-pl.zip',
-        'location' => 'setup/index.php'
-    ),
-    'revo2.8.0-ad'      => array(
-        'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.8.0 Advanced (10.06.2020)',
-        'link'     => 'https://modx.com/download/direct/modx-2.8.0-pl-advanced.zip',
-        'location' => 'setup/index.php'
-    ),
-    'revo2.8.0-sdk'      => array(
-        'tree'     => 'Revolution',
-        'name'     => 'MODX Revolution 2.8.0 SDK (10.06.2020)',
-        'link'     => 'https://modx.com/download/direct/modx-2.8.0-pl-sdk.zip',
         'location' => 'setup/index.php'
     )
 );
