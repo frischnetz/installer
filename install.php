@@ -1,5 +1,5 @@
 <?php
-$version = '1.6.37';
+$version = '1.6.38';
 
 error_reporting(0);
 ini_set('display_errors', 0);
@@ -22,6 +22,12 @@ if (ini_get('allow_url_fopen')) {
 }
 
 $InstallData = array(
+    'revo3.1.2-pl'      => array(
+        'tree'     => 'Revolution',
+        'name'     => 'MODX Revolution 3.1.2 pl Traditional (2025-04-02)',
+        'link'     => 'https://modx.s3.amazonaws.com/releases/3.1.2/modx-3.1.2-pl.zip',
+        'location' => 'setup/index.php'
+    ),
     'revo3.1.1-pl'      => array(
         'tree'     => 'Revolution',
         'name'     => 'MODX Revolution 3.1.1 pl Traditional (2025-02-18)',
